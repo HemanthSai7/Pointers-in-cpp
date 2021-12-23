@@ -1,4 +1,4 @@
-/*#include<stdio.h>
+#include<stdio.h>
 int sumOfElements(int* A, int size)//int *A or A[]....it's the same...
 {
     int i,sum=0;
@@ -15,8 +15,8 @@ int main() {
     int total=sumOfElements(A,size);
     printf("sum of elements=%d\n",total);
     printf("SOE-Size of A = %d,size of A[0]=%d\n",sizeof(A),sizeof(A[0]));
-}*/
-/*
+}
+
 #include<stdio.h>
 void double(int *A, int size) 
 {
@@ -34,4 +34,4 @@ int main()
     for (i=0;i<size;i++) {
         printf("%d\n",A[i]);
     }
-}*/
+}
